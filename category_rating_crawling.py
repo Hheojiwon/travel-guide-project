@@ -51,8 +51,3 @@ def get_rating_and_category(place_name):
         print(f"⚠️ '{place_name}' 검색 중 오류 발생: {e}")
         return "정보 없음", "정보 없음"
       
-
-
-# 드라이버 종료
-driver.quit()
-print("✅ 모든 평점과 카테고리 저장 완료!")
